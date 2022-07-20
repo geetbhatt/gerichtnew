@@ -77,6 +77,11 @@ order: 2;
 flex-grow: 0;
 
 }
+.Navbar {
+    z-index: 9999;
+}
+
+
 .heading2{
 /* What we believe in */
 
@@ -183,7 +188,7 @@ color: #FFFFFF;
     background-size: cover,cover,cover;
     background-position: center,center,50%;
     background-size: 90px 600px, 300px 350px,3000px,100%;
-    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-repeat: no-repeat,no-repeat,repeat;
 }
 .Gericht{
     display: flex;
@@ -598,6 +603,7 @@ border: 1px solid #F5EFDB;
 
 @keyframes animate {
 
+
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
@@ -617,6 +623,26 @@ border: 1px solid #F5EFDB;
         display:block; 
     
     }
+    
+    .heading1{
+        width: 100%;
+        font-size: 40px;
+
+        
+    }
+
+    .button{
+        margin-top: 130px;
+    }
+
+    .heading2{
+        width: 100%;
+        height: 100%;
+        padding-top: 150px;
+        font-size: 35px;
+        
+    }
+
     .navBrand{
         /* Gerícht */
 
@@ -649,5 +675,97 @@ border: 1px solid #F5EFDB;
     .navMenu.active{
         left: 0;
     }
+    .subscribe{
+        /* Subscribe to Our Newsletter */
+    
+    width: 100%;
+    height: 80px;
+    
+    /* H2 64px Cormorant Upright */
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6px;
+    line-height: 130%;
+    /* or 83px */
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    /* DCCA87 */
+    color: #DCCA87;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    
+    }
+
+    .background{
+        width: 100%;
+        height: 100%;
+        background-size: 90px 600px, 300px 350px,3000px,100%;
+    }
+    .contentf{
+        background-color: black;
+        height: 300px;
+        width: 95%;
+        margin-left: 2px;
 
     }
+    .search{
+        /* Rectangle 22 */
+        
+        box-sizing: border-box;
+        width: 295px;
+        height: 60px;
+        left: 0px;
+        top: 0px;
+        
+        /* F5EFDB */
+        border: 1px solid #F5EFDB;
+
+    }
+
+    .para{
+        /* Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus */
+    
+    width: 100%;
+    height: 84px;
+    padding: 10px 10px;
+    
+    /* Body 16px Regular */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* or 28px */
+    letter-spacing: 0.04em;
+    
+    /* AAAAAA */
+    color: #AAAAAA;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+    }
+.box{
+
+    width: 95%;
+}
+.box2{
+    width: 95%;
+}
+.boxm{
+    width: 95%;
+}
+.boxg{
+    width: 95%;
+}
+}
